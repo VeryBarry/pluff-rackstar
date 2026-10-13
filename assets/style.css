@@ -35,3 +35,10 @@ footer a{color:var(--mut);margin-right:14px}
 .card>img{width:100%;aspect-ratio:16/10;object-fit:cover;height:auto}
 .card.soon{min-height:0}
 .game-hero>img{width:100%;max-height:460px;object-fit:cover;height:auto}
+@font-face{font-family:Fraunces;src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
+.pbar,.pfoot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 20px;font-size:.82rem;background:#fbf3e4;color:#4a3426}
+.pbar a,.pfoot a{display:flex;align-items:center;gap:8px;font:600 .95rem Fraunces,Georgia,serif;color:#4a3426;text-decoration:none}
+.pbar span,.pfoot span{color:#7a6555}
+.pfoot{background:#2e2019;color:#cdb89c;padding:18px 20px;margin-top:20px;flex-wrap:wrap}.pfoot a{color:#fbf3e4}.pfoot span{color:#cdb89c}
+footer a{margin-right:14px}
+@media(max-width:520px){.pbar span{display:none}}
